@@ -57,10 +57,6 @@ body {
     font-size:18px;
     color:#E5E7EB;
 }
-.sign-up{
-    background-color: #3882F6;
-    color:#E5E7EB;
-}
 /*information start*/
 .information-container{
     display:flex;
@@ -113,6 +109,49 @@ body {
     margin-right:50px;
 }
 
+.modal{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:32px;
+}
+
+.call-container{
+    display:flex;
+    max-width: 1000px;
+    height:50px;
+    margin:auto;
+    padding:32px;
+    background-color: #3882F6;
+    border-radius:5px;
+    color:#E5E7EB;
+    gap:32px;
+}
+.left-side{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    gap:8px;
+}
+.right-side{
+    align-self: center;
+}
+.call-header{
+    font-weight: bold;
+}
+
+/*Footer Start */
+.footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-basis:50px;
+}
+.footer-text{
+    font-size:13px;
+    color:#E5E7EB;
+}
+
 ul {
     list-style: none;
     display:flex;
@@ -135,4 +174,10 @@ button{
     border: 1px solid #3882F6;
     width:130px;
     height:45px;
+    font-weight: bold;
+    background-color: #3882F6;
+    color:#E5E7EB;
+}
+button.call-sign-up{
+    border: 1px solid #E5E7EB;
 }
